@@ -1,0 +1,17 @@
+{
+  "name": "aiprove-sample-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Sample agent for the AIProve bounty sample-agent-skillmd: reads skill.md, authenticates with its own keypair, lists open bounties, enters one.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node agent.mjs"
+  },
+  "dependencies": {
+    "ethers": "^6.13.0"
+  }
+}
